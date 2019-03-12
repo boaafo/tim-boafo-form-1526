@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    font-size: 1rem;
+    background-color: white;
+    margin: 15px;
+}
+
+fieldset{
+    background: #F5F5F5;
+    border: 2px solid #dddddd;
+}
+div{
+    margin-bottom: 20px;
+
+}
+
+.wrapper {
+    max-width: 50rem;
+    margin: 100px auto;
+}
+
+#nameField {
+    padding-right: 10px;
+    margin-bottom: 2rem;
+}
+
+#mailField {
+    padding-right: 10px;
+    margin-bottom: 2rem;
+
+}
+
+#legendDisplay {
+    background: white;
+    padding: 10px;
+    border: 2px solid #ddd;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+#submit-button {
+    background: #6495ED;
+    padding: 8px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+input {
+    padding: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    border: 2px solid #DDD;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 25rem) {
+
+    .formField {
+        display: inline-block;
+        float: left;
+        width: 50%;
+    }
+
+    label {
+        width: 10%;
+    }
+
+    #submit-button {
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    #legendDisplay {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 30rem) {
+
+}
+
